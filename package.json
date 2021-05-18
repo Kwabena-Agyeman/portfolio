@@ -3,9 +3,11 @@
   "version": "1.0.1",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "main": "index.js",
+  "homepage": "https://Kwabena-Agyeman.github.io/portfolio",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --open",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "repository": {
     "type": "git",
